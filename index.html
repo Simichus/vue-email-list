@@ -17,7 +17,7 @@
 <body>
     <div id="app">
         <div v-if="!isError">
-            <ul v-if="emails.length === 10">
+            <ul v-if="emails.length === nOfEmails">
                 <li v-for="email in emails">
                     {{email}}
                 </li>
